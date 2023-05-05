@@ -12,6 +12,6 @@ fi
 polybar left --config=$HOME/.config/polybar/config.ini &
 polybar center --config=$HOME/.config/polybar/config.ini &
 polybar right --config=$HOME/.config/polybar/config.ini &
-polybar secondary_left --config=$HOME/.config/polybar/config.ini
-polybar secondary_center --config=$HOME/.config/polybar/config.ini
-polybar secondary_right --config=$HOME/.config/polybar/config.ini
+polybar secondary_left --config=$HOME/.config/polybar/config.ini &
+polybar secondary_center --config=$HOME/.config/polybar/config.ini &
+polybar secondary_right --config=$HOME/.config/polybar/config.ini 

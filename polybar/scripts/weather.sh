@@ -74,5 +74,5 @@ if [ -n "$weather" ]; then
     weather_desc=$(sed -E 's/(\w)(\w*)/\U\1\L\2/g' <<<"$weather_desc")    
     # weather_desc=$(echo $weather_desc | tr '[:upper:]' '[:lower:]')
 
-    echo "$(get_icon "$weather_icon")   " "$weather_desc", "$weather_temp$SYMBOL"
+    echo "$(get_icon "$weather_icon") " "$weather_desc", "$weather_temp$SYMBOL"
 fi
